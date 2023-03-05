@@ -15,6 +15,6 @@ https://www.arduino.cc/en/software
 
 Instalación librería paca nRF5
 
-´´´
+```
 https://sandeepmistry.github.io/arduino-nRF5/package_nRF5_boards_index.json
-´´´
+```
