@@ -19,7 +19,7 @@ https://www.arduino.cc/en/software
 
 - 3.1. Instalación librería placa nRF5
 
-  Añadir la siguiente ruta en el gestor de placas de las Preferencias de Arduino IDE
+  Añadir la siguiente ruta en el gestor de placas de las Preferencias de Arduino IDE (Documetación https://github.com/sandeepmistry/arduino-nRF5)
   
   ```
     https://sandeepmistry.github.io/arduino-nRF5/package_nRF5_boards_index.json
