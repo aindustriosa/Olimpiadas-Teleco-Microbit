@@ -5,6 +5,8 @@ http://olimpiadasteleco.com
 
 Marzo 2023 - Escola de Enxeñaría de Telecomunicación - Universidade Vigo
 
+![portada taller micro:bit](./images/portada.png)
+
 1. Introducción a Micro:bit
 
 2. Programación con Makecode
