@@ -23,7 +23,7 @@ https://www.arduino.cc/en/software
     https://sandeepmistry.github.io/arduino-nRF5/package_nRF5_boards_index.json
   ```
   
-![Añadir placa](./images/arduino_gestor.png)
+![Añadir placa](./images/arduino_gestor1.png)
   
   Una vez añadido, desde el gestor de placas buscar nRF5 o Micro:bit e instalar "Nordic Semiconductor nRF5 Boards"
   
