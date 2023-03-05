@@ -1,20 +1,20 @@
-const int botonA = 5;     // Numero de pin del botón
-const int botonB = 11;     // Numero de pin del botón
+const int COL1 = 4;  // Columna #1 control
+const int LED = 21;  // 'Fila 1' led
 
-void setup() {  
-  Serial.begin(9600);
+void setup() {
+   Serial.begin(9600);
   Serial.println("microbit activo!");
 
-  pinMode(botonA, INPUT);  
-  pinMode(botonB, INPUT);    
+  // debido a que los LED están multiplexados, debemos conectar a tierra el lado opuesto del LED
+  pinMode(COL1, OUTPUT);
+  digitalWrite(COL1, LOW);
+  pinMode(LED, OUTPUT);
 }
 
-void loop(){
-  if (! digitalRead(botonA)) {
-    Serial.println("Botón A pulsado");
-  }
-  if (! digitalRead(botonB)) {
-    Serial.println("Botón B pulsado");
-  }
-  delay(10);
+void loop() {
+  Serial.println("Enciende!");
+  digitalWrite(LED, HIGH);
+  delay(500);
+  digitalWrite(LED, LOW);
+  delay(500);
 }
