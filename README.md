@@ -9,13 +9,16 @@ Marzo 2023 - Escola de Enxeñaría de Telecomunicación - Universidade Vigo
 
 2. Programación con Makecode
 
-https://makecode.microbit.org/
+  https://makecode.microbit.org/
 
 3. Programación con Arduino IDE
 
 https://www.arduino.cc/en/software
 
 - 3.1. Instalación librería placa nRF5
+  ```
+    https://sandeepmistry.github.io/arduino-nRF5/package_nRF5_boards_index.json
 ```
-https://sandeepmistry.github.io/arduino-nRF5/package_nRF5_boards_index.json
-```
+
+- 3.2. Instalación librerías
+  
