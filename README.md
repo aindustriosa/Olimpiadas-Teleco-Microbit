@@ -90,6 +90,8 @@ delay(10);
  ```
  - 3.4. Instalación librerías
 
+Para manejar la matriz LED, el Bluetooh y otros sensores de la Micro:Bit necesitamos instalar otras librerías:
+
   Adafruit GFX
   
   Adafruit Microbit
