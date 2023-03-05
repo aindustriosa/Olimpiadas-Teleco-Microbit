@@ -30,8 +30,8 @@ https://www.arduino.cc/en/software
   
 - 3.3. Primer código Blink
 
- ```
- const int botonA = 5;     // Numero de pin del botón
+ ```c
+const int botonA = 5;     // Numero de pin del botón
 const int botonB = 11;     // Numero de pin del botón
 
 void setup() {  
