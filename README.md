@@ -29,6 +29,8 @@ https://www.arduino.cc/en/software
   
   Ya podemos selecionar nuestra placa desde "Herramientas> Placa > Nordic Semiconductor nRF5 Boards > BBC Micro:bit V2"
   
+  ![seleccionar placa](./images/arduino_gestor2.png)
+  
   Una vez conectado por USB la Micro:bit al ordenador, podemos selecionarla desde "Herramientas > Puerto"
   
 - 3.2. Primer código "Blink"
