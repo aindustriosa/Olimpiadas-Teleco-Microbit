@@ -1,4 +1,4 @@
-# Olimpiadas Teleco Microbit
+# Olimpiadas Teleco Micro:bit
 Charla de Micro:Bit y Arduino IDE
 
 http://olimpiadasteleco.com
