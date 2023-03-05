@@ -85,8 +85,11 @@ void loop() {
  - 3.4. Instalación librerías
 
   Adafruit GFX
+  
   Adafruit Microbit
+  
   BLEPeripheral
+  
   LSM303AGR
   
    
