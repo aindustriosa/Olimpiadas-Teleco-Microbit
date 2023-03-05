@@ -28,7 +28,7 @@ https://www.arduino.cc/en/software
   
   Una vez conectado por USB la Micro:bit al ordenador, podemos selecionarla desde "Herramientas > Puerto"
   
-- 3.3. Primer código Blink
+- 3.2. Primer código Blink
 
  ```c
 const int botonA = 5;     // Numero de pin del botón
@@ -50,6 +50,36 @@ void loop(){
     Serial.println("Botón B pulsado");
   }
   delay(10);
+}
+ ```
+ 
+ - 3.3. Código "Botones"
+
+ ```c
+#include <Adafruit_Microbit.h>
+Adafruit_Microbit_Matrix microbit;
+
+const uint8_t
+  smile_bmp[] =
+  { B00000,
+    B01010,
+    B00000,
+    B10001,
+    B01110, };
+    
+void setup() {
+  Serial.begin(9600);
+  Serial.println("microbit matrix demo is ready!");
+  microbit.begin();
+}
+
+void loop() {
+  microbit.show(microbit.HEART);
+  delay(1000);
+
+  microbit.show(smile_bmp);
+  delay(1000);
+
 }
  ```
 - 3.2. Instalación librerías
