@@ -82,8 +82,17 @@ void loop() {
 
 }
  ```
+ - 3.4. Instalación librerías
+
+  Adafruit GFX
+  Adafruit Microbit
+  BLEPeripheral
+  LSM303AGR
+  
+   
+
  
-  - 3.4. Código "Botones"
+  - 3.5. Código "Matriz LED"
 
  ```c
 #include <Adafruit_Microbit.h>
@@ -113,11 +122,3 @@ void loop() {
 }
  ```
  
-- 3.5. Instalación librerías
-
-  Adafruit GFX
-  Adafruit Microbit
-  BLEPeripheral
-  LSM303AGR
-  
-   
