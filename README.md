@@ -99,7 +99,8 @@ delay(10);
   LSM303AGR
   
    
-
+  ![Añadir librerias](./images/arduino_libreria.png)
+  
  
   - 3.5. Código "Matriz LED"
 
