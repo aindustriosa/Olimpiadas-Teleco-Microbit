@@ -135,7 +135,7 @@ void loop() {
  ```
    - 3.6. Pines Micro:bit v2
 
- ```
+ ```c
   // 0 - 4
   2,  // A0, LEFT PAD
   3,  // A1, MIDDLE PAD
