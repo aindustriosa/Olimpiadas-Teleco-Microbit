@@ -7,6 +7,8 @@ Marzo 2023 - Escola de Enxeñaría de Telecomunicación - Universidade Vigo
 
 ![portada taller micro:bit](./images/portada.png)
 
+Abrir la [presentación en Google](https://docs.google.com/presentation/d/11v2sIbIs26_T7bUSIVjvUuew6InwC99nK-ZRIBr8l3M/edit?usp=sharing).
+
 1. Introducción a Micro:bit
 
 2. Programación con Makecode
