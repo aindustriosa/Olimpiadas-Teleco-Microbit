@@ -1,4 +1,4 @@
-# Olimpiadas Teleco Microbit
+# Olimpiadas Teleco Micro:bit
 Charla de Micro:Bit y Arduino IDE
 
 http://olimpiadasteleco.com
@@ -19,13 +19,15 @@ https://www.arduino.cc/en/software
 
 - 3.1. Instalación librería placa nRF5
 
-  Añadir la siguiente ruta en el gestor de placas de las Preferencias de Arduino IDE
+  Añadir la siguiente ruta en el gestor de placas de las Preferencias de Arduino IDE 
   
   ```
     https://sandeepmistry.github.io/arduino-nRF5/package_nRF5_boards_index.json
   ```
   
 ![Añadir placa](./images/arduino_gestor1.png)
+  
+  (Documentación https://github.com/sandeepmistry/arduino-nRF5)  
   
   Una vez añadido, desde el gestor de placas buscar nRF5 o Micro:bit e instalar "Nordic Semiconductor nRF5 Boards"
   
