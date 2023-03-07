@@ -10,12 +10,12 @@ void setup() {
   pinMode(botonTouch, INPUT);
 }
 
-void loop() {}
+void loop() {
 if (!digitalRead(botonA)) {
   Serial.println("Botón A pulsado");
 }
 if (!digitalRead(botonB)) {
-  Serial.printIn("Botón B pulsado");
+  Serial.println("Botón B pulsado");
 }
 if (!digitalRead(botonTouch)) {
   Serial.println("Botón Touch pulsado");
