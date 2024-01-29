@@ -3,11 +3,11 @@ Charla de Micro:Bit y Arduino IDE
 
 http://olimpiadasteleco.com
 
-Marzo 2023 - Escola de Enxeñaría de Telecomunicación - Universidade Vigo
+Febrero 2024 - Escola de Enxeñaría de Telecomunicación - Universidade Vigo
 
-![portada taller micro:bit](./images/portada.png)
+![portada taller micro:bit](./images/portada_2024.png)
 
-Abrir la [presentación en Google](https://docs.google.com/presentation/d/11v2sIbIs26_T7bUSIVjvUuew6InwC99nK-ZRIBr8l3M/edit?usp=sharing).
+Abrir la [presentación en Google](https://docs.google.com/presentation/d/1YOLyrvAlUqVgdwGo6zWrh2fcKesFOPHC8ZrSuuyjXgg/edit?usp=sharing).
 
 1. Introducción a Micro:bit
 
