@@ -110,7 +110,7 @@ Para manejar la matriz LED, el Bluetooh y otros sensores de la Micro:Bit necesit
  
   - 3.5. Código "Matriz LED"
 
- ```c
+ ```
 #include <Adafruit_Microbit.h>
 Adafruit_Microbit_Matrix microbit;
 
@@ -137,7 +137,45 @@ void loop() {
 
 }
  ```
-   - 3.6. Pines Micro:bit v2
+- 3.6. DHT11 con Micro:bit v2
+
+```
+#include "DHT.h"
+
+#define DHTPIN 1     
+#define DHTTYPE DHT11   // DHT 11
+
+DHT dht(DHTPIN, DHTTYPE);
+
+void setup() {
+  Serial.begin(9600);
+  Serial.println(F("DHTxx test!"));
+  dht.begin();
+}
+
+void loop() {
+
+  delay(2000);
+
+  float h = dht.readHumidity();
+  float t = dht.readTemperature(); // En ºC
+  // float f = dht.readTemperature(true); // En ºF
+
+  if (isnan(h) || isnan(t) ) {
+    Serial.println(F("Error leyendo sensor!"));
+    return;
+  }
+
+  Serial.print(F("Humedad: "));
+  Serial.print(h);
+  Serial.print(F("%  Temperatura: "));
+  Serial.print(t);
+  Serial.println(F("°C "));
+}
+
+
+ ```
+   - 3.7. Pines Micro:bit v2
 
  ```c
   // 0 - 4
