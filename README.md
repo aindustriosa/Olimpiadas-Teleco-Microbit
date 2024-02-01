@@ -110,7 +110,7 @@ Para manejar la matriz LED, el Bluetooh y otros sensores de la Micro:Bit necesit
  
   - 3.5. Código "Matriz LED"
 
- ```
+ ```c
 #include <Adafruit_Microbit.h>
 Adafruit_Microbit_Matrix microbit;
 
@@ -139,7 +139,7 @@ void loop() {
  ```
 - 3.6. DHT11 con Micro:bit v2
 
-```
+```c
 #include "DHT.h"
 
 #define DHTPIN 1     
